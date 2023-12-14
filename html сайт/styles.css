@@ -1,0 +1,103 @@
+/* Устанавливаем стили для основного контейнера страницы */
+body {
+    font-family: Arial, sans-serif; /* Задаем шрифт текста на странице */
+    margin: 0; /* Убираем внешние отступы у body */
+    padding: 0; /* Убираем внутренние отступы у body */
+    min-height: 100vh; /* Устанавливаем минимальную высоту страницы */
+    background-image: url('fon.webp'); /* Путь к изображению фона */
+    background-size: cover; /* Растягиваем изображение на весь экран */
+    background-position: center; /* Выравниваем изображение по центру */
+    background-repeat: no-repeat; /* Запрещаем повторение изображения */
+}
+
+/* Стили для верхней части страницы (шапки) */
+header {
+    background-color: #7195dd; /* Задаем цвет фона */
+    color: #fff; /* Задаем цвет текста */
+    padding: 1em; /* Добавляем внутренние отступы */
+    text-align: center; /* Выравниваем текст по центру */
+}
+
+/* Стили для навигационного меню */
+nav ul {
+    list-style: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем внутренние отступы у списка */
+}
+
+nav ul li {
+    display: inline; /* Размещаем элементы списка горизонтально */
+    margin-right: 20px; /* Добавляем отступ между элементами списка */
+}
+
+nav a {
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+    color: #fff; /* Задаем цвет текста ссылок */
+    font-weight: bold; /* Делаем текст ссылок жирным */
+}
+
+/* Стили для основного содержимого страницы */
+main {
+    padding: 20px; /* Добавляем внутренние отступы */
+}
+
+/* Стили для центрирования изображений */
+.image-center {
+    text-align: center;
+}
+
+/* Стили для изображений */
+img {
+    width: 100%; /* Занимает 100% ширины родительского элемента */
+    max-width: 600px; /* Максимальная ширина изображения */
+    height: auto; /* Сохраняем пропорции изображения */
+    margin-top: 20px; /* Добавляем отступ сверху */
+}
+.order-button {
+    background-color: #7195dd; /* Цвет фона кнопки */
+    color: #ffffff; /* Цвет текста кнопки */
+    padding: 10px 20px; /* Внутренние отступы */
+    text-decoration: none; /* Убрать подчеркивание текста */
+    border-radius: 5px; /* Скругление углов */
+    display: inline-block; /* Позволяет применять отступы */
+    transition: background-color 0.3s; /* Плавный переход цвета */
+}
+
+.order-button:hover {
+    background-color: #5a7db8; /* Цвет фона кнопки при наведении */
+}
+
+/* Стили для нижней части страницы (подвала) */
+footer {
+    background-color: #7195dd; /* Цвет фона */
+    color: #ffffff; /* Цвет текста */
+    text-align: center; /* Выравнивание текста по центру */
+    padding: 1em; /* Внутренние отступы */
+    position: relative; /* Позиционирование относительно */
+    width: 100%; /* Ширина 100% */
+    height: auto; /* Автоматическая высота для содержимого */
+    margin-top: 20px; /* Отступ сверху */
+    display: flex; /* Использование Flexbox */
+    flex-direction: column; /* Элементы располагаются вертикально */
+    justify-content: center; /* Выравнивание элементов по центру */
+    align-items: center; /* Центрирование элементов по горизонтали */
+    text-align: center;
+}
+
+footer h3 {
+    margin-top: 0;
+    color: #ffffff;
+}
+
+.social-icons {
+    margin: 10px 0;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.social-icons img {
+    width: 24px; /* Или другой размер, который вам нравится */
+    height: auto;
+}
